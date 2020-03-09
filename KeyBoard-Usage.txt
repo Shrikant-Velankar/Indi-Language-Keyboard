@@ -1,0 +1,18 @@
+Multi Language Virtual Keyboard: Usage Note:
+    Step 1: Instatiate object of class MultiKbd from module LangKbd
+    Step 2: Execute method 'MultiKeyboard()' of this Instance 
+    Step 3: Specified Language UTF string is returned to Instance variable 'RetStrg'
+    
+    1st Arg: Language Specifier - 
+    'D' for Devanagari, 'E' for English, 'G' for Gujrati - Mandatory Argument
+    2nd Arg: UI Container - Window or Frame, Mandatory Argument
+  [ 3rd Arg: Max. length of String acceptable by the Keyboard, Default=30 Characters
+    4th Arg: Prompting String. Default='Enter:'
+    5th Arg: Relative X Position, Default=0.2
+    6th Arg: Relative Y Position, Default=0.2
+    7th Arg: Width, Default=0.6
+    8th Arg: Height, Default=0.6
+    9th Arg: Frame Background Color, Default='white'
+   10th Arg: Frame Border Color, Default='blue'
+   11th Arg: Buttons Background Color, Default='light grey'
+   12th Arg: Buttons Text Color, Default='black' ]
