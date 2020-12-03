@@ -1,12 +1,17 @@
-Multi Language Virtual Keyboard: Usage Note:
-    Step 1: Instatiate object of class MultiKbd from module LangKbd
-    Step 2: Execute method 'MultiKeyboard()' of this Instance 
-    Step 3: Specified Language UTF string is returned to Instance variable 'RetStrg'
+ Multi Language Virtual Keyboard: Version-2.2 Usage Notes:
+    Instatiate object of class MultiKbd from module LangKbd
+    Execute method 'MultiKeyboard()' of this Instance 
+    Specified Language UTF string is returned to Instance variable 'RetStrg'
     
-    1st Arg: Language Specifier - 
-    'D' for Devanagari, 'E' for English, 'G' for Gujrati - Mandatory Argument
-    2nd Arg: UI Container - Window or Frame, Mandatory Argument
-  [ 3rd Arg: Max. length of String acceptable by the Keyboard, Default=30 Characters
+    1st Arg: Language Specifier - List of Languages as a string Consisting of ...
+             'D' for Devanagari, 
+             'E' for English, 
+             'G' for Gujrati 
+             for example -> 'D' or 'ED' or 'DGE'- Mandatory Arg
+    2nd Arg: UI Container - Window or Frame, Mandatory Arg
+  [ 3rd Arg: Max. length of String acceptable by the Keyboard, 
+             Default=30 Characters 
+             - 3 to 14 Arg are Optional, if not specified, default value is taken
     4th Arg: Prompting String. Default='Enter:'
     5th Arg: Relative X Position, Default=0.2
     6th Arg: Relative Y Position, Default=0.2
@@ -15,4 +20,10 @@ Multi Language Virtual Keyboard: Usage Note:
     9th Arg: Frame Background Color, Default='white'
    10th Arg: Frame Border Color, Default='blue'
    11th Arg: Buttons Background Color, Default='light grey'
-   12th Arg: Buttons Text Color, Default='black' ]
+   12th Arg: Buttons Text Color, Default='black' 
+   13th Arg: Special Buttons Text Color, Default='red'
+   14th Arg: Layout -> 
+             | 0 -> Horizontal-Strip 
+             | 1 -> Standard-Near Squarish 
+             | 2 -> Vertical-Rectangle, 
+             Default -> Auto-Adjusted ]
