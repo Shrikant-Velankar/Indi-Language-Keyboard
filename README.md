@@ -15,12 +15,12 @@ This Keyboard currently has language support for English, Hindi, Marathi & Gujra
 The output is a string returned in the selected language in UNICODE.
 
 Version-2.2 Supports - 
-Multi-line Input
-Full Cursor Control through Virtual Arrow keys  
-Auto-Swtiching and Mixing of Languages
-Full Support for Gujrati Language
-Layout Aspect Ratio Selection
-Auto-adjustment of Layout as per Aspect Ratio
+Multi-line Input,
+Full Cursor Control through Virtual Arrow keys,  
+Auto-Swtiching and Mixing of Languages,
+Full Support for Gujrati Language,
+Layout Aspect Ratio Selection,
+Auto-adjustment of Layout as per Aspect.
 
 To understand Usage please Read File: Kyeboard-Usage.txt
 
